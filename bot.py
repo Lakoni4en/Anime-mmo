@@ -286,7 +286,7 @@ async def cb_exped(cb: types.CallbackQuery):
         t = f"🌍 <b>Экспедиция</b>\n\n📋 {name}\n⏰ {'✅ Готово!' if done else f'Осталось: {tl}'}\n\n{'Нажми чтобы забрать!' if done else 'Ожидай завершения...'}"
         try: await cb.message.edit_text(t, reply_markup=IKM(inline_keyboard=btns))
         except: pass
-            else:
+    else:
         btns = [[IKB(text=f"{e['name']} ({e['duration']}мин)", callback_data=f"exps_{e['id']}")] for e in EXPEDITIONS]
         btns.append([IKB(text="🏠 Меню", callback_data="menu")])
         t = "🌍 <b>Экспедиции</b>\n\n<i>Отправь героя в поход! Не тратит энергию.</i>\n<i>Дольше поход = лучше награда.</i>\n\nВыбери экспедицию:"
