@@ -1,1 +1,45 @@
-IyBBbmltZSBNbW8KCiMjIPCfk4sg0J7Qv9C40YHQsNC90LjQtQoKKipBbmltZSBNbW8qKiAtINC/0YDQvtC10LrRgiDQtNC70Y8g0LDQstGC0L7QvNCw0YLQuNC30LDRhtC40Lgg0LfQsNC00LDRhy4KCtCd0LDQv9C40YHQsNC9INC90LAg0Y/Qt9GL0LrQtSDQv9GA0L7Qs9GA0LDQvNC80LjRgNC+0LLQsNC90LjRjyAqKlB5dGhvbioqLgoKIyMg8J+boCDQotC10YXQvdC+0LvQvtCz0LjQuAoKIVtQeXRob25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvLVB5dGhvbi1ibHVlP3N0eWxlPWZsYXQtc3F1YXJlKSAhW1Byb2NmaWxlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlLy1Qcm9jZmlsZS1ibHVlP3N0eWxlPWZsYXQtc3F1YXJlKQoKCiMjIPCflKcg0J7RgdC90L7QstC90YvQtSDQutC+0LzQv9C+0L3QtdC90YLRiwoKCioq0JrQu9Cw0YHRgdGLOioqCgotIFRFWFQKCgoqKtCk0YPQvdC60YbQuNC4OioqCgotIGtiX2JhY2sKLSBrYl9tYWluCi0gY2FsY3VsYXRlX2VuZXJneQotIHhwX2Zvcl9sZXZlbAotIGdldF9jbGFzc19zdGF0cwoKCgojIyDwn5OmINCX0LDQstC40YHQuNC80L7RgdGC0LgKCgotIGFpb2dyYW0KLSBhaW9zcWxpdGUKLSBweXRob24tZG90ZW52CgoKIyMg8J+agCDQo9GB0YLQsNC90L7QstC60LAg0Lgg0LfQsNC/0YPRgdC6CgpgYGBiYXNoCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKcHl0aG9uIG1haW4ucHkKYGBgCg==
+# Anime Mmo
+
+## 📋 Описание
+
+**Anime Mmo** - проект для автоматизации задач.
+
+Написан на языке программирования **Python**.
+
+## 🛠 Технологии
+
+![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) ![Procfile](https://img.shields.io/badge/-Procfile-blue?style=flat-square)
+
+
+## 🔧 Основные компоненты
+
+
+**Классы:**
+
+- TEXT
+
+
+**Функции:**
+
+- get_class_stats
+- calculate_energy
+- xp_for_level
+- kb_back
+- kb_main
+
+
+
+## 📦 Зависимости
+
+
+- aiogram
+- aiosqlite
+- python-dotenv
+
+
+## 🚀 Установка и запуск
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
